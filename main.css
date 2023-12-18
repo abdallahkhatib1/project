@@ -1,0 +1,53 @@
+.commentSize{
+    display: flex;
+    flex-wrap: nowrap;
+}
+    .commentSize img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+#WritingComment{
+    width: 100%;
+    background-color: rgb(238, 240, 242);
+    border-radius: 5px;
+}
+.pic1{
+    padding-right: 2px;
+}
+.comment {
+   margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(226, 227, 229);  
+    width: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
+    outline: none;
+}
+.profilePhoto{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+  .like-button {
+    cursor: pointer;
+    color: black; 
+    border: none;
+  }
+
+  .like-section {
+    margin-top: 5px;
+  }
+
+  #loadMore {
+    
+    display: none;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+  }
